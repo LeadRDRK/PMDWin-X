@@ -27,7 +27,7 @@ These are only a few notable examples. Generators for other build systems are av
 
 A few build options are available which can be specified by adding `-DOPTION_NAME=VALUE` to your CMake invocation:
 - `PMDWIN_OPNA_EMU` - Specifies the OPNA emulator to be used. Available options are `fmgen` and `nuked`. Default: `fmgen`
-- `PMDWIN_BUILD_EXAMPLE` - Build the sample program provided in the `/example` directory (pmdplayer). Default: `OFF`
+- `PMDWIN_BUILD_EXAMPLE` - Build the sample program provided in the `/example` directory (pmdplayer). Default: `OFF`. Make sure to have the submodules cloned when you build the example.
 
 The Windows DLL built with this project is fully compatible with FMPMD2000. If you built it with MinGW, please make sure to also include the MinGW runtime libraries in the folder.
 # License
