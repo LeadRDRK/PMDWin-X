@@ -1,0 +1,4 @@
+.cache/
+build/
+build-win32/
+compile_commands.json
